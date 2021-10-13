@@ -1,13 +1,9 @@
 .publish-time {
-	body { 
 		color: grey;
-	 }
 	}
 
-.destination {
-		body { 
+.destination { 
 		color: orange;
 		font-family: cursive;
-	 }
 	}
 	
