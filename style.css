@@ -1,21 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.page{
-	width: 900px;
-	margin: auto;
-	border: 1px solid red;
-}
-
 .publish-time {
 	body { 
 		color: grey;
 	 }
 	}
 
-	.destination {
+.destination {
 		body { 
 		color: orange;
 		font-family: cursive;
