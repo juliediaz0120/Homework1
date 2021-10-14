@@ -1,4 +1,5 @@
 .title {
+		background-image: url("tree.jpg");
 		color: red;
 		font-family: bold;
 	}
@@ -11,6 +12,10 @@
 .heading {
 	color: red;
 	font-family: bold;
+}
+
+.passage {
+	background-image: url("paper.gif");
 }
 
 .image {
