@@ -1,2 +1,21 @@
- background-image: url("tree.jpg");
+.title {
+ color: red
+ font-family: bold
+}
+
+.name {
+ color: red
+  font-family: cursive 
+}
+
+.start {
+ color: orange
+ font-family: cursive
+}
+  
+.passage {
+ color:black
+
+
+background-image: url("tree.jpg");
  background-color: #brown;
