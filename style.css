@@ -24,21 +24,21 @@
 }
 
 #wyoming {
-	color:orange
+	color:brown
 }
 #africa {
 	color:pink
 }
 #bolivia {
-	color:brown
+	color:orange
 }
 
 .image {
   display: block;
   margin-left: auto;
   margin-right: auto;
-width="300px" 
-height="250px"
+  max-width: 100%;
+  height: auto;
 }
 
 #chinaimg {
