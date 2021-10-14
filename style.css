@@ -23,6 +23,16 @@
 	color:green
 }
 
+#wyoming {
+	color:orange
+}
+#africa {
+	color:pink
+}
+#bolivia {
+	color:brown
+}
+
 .image {
   display: block;
   margin-left: auto;
@@ -32,6 +42,6 @@ height="400px"
 }
 
 #chinaimg {
-	border-radius: 50%;
+	border-radius: 8px;;
 }
-	
+
