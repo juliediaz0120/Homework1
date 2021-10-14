@@ -1,4 +1,6 @@
-
+body {
+  background-color: #A0522D;
+}
 
 .title {
   position: relative;
@@ -9,7 +11,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 300px;
+  font-size: 150px;
   font-family: Copperplate, Papyrus, fantasy;
   color: red
 }
@@ -31,6 +33,6 @@ img {
 }
 
 .passage {
-	color: red;
+	color: #F0F8FF;
 	font-family: Copperplate, Papyrus, fantasy;
 }
