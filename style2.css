@@ -1,20 +1,16 @@
 .title {
+		color: red;
+		font-family: bold;
+	}
+
+.author { 
+		color: orange;
+		font-family: cursive;
+	}
+	
+.heading {
 	color: red;
 	font-family: bold;
-}
-
-.name {
-	color: red;
- 	font-family: cursive;
-}
-
-.start {
-	color: orange;
-	font-family: cursive;
-}
-  
-.passage {
-	color:black;
 }
 
 .image {
@@ -28,4 +24,3 @@
 #rushdieimg {
 	border-radius: 50%;
 }
-
