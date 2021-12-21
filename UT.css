@@ -26,18 +26,6 @@ font-size: 40px
   grid-template-columns: auto auto auto;
   padding: 50px;
   }
-/*Centering Intro3 div*/
-
-#medicineClick{
-  float:left;}
-
-#basicsClick{
-  float:center;}
-
-
-#dietClick{
-  float:right;}
-/*done centering Into3*/
   
        /*Animimations*/
 
@@ -95,40 +83,6 @@ font-size: 40px
   } 
 }
 
-#arrows{
-animation-name: tossing;
-  -webkit-animation-name: tossing;  
-
-  animation-duration: 6s; 
-  -webkit-animation-duration: 6s;
-
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-}
-
-@keyframes tossing {
-  0% {
-    transform: rotate(-4deg); 
-  }
-  50% {
-    transform: rotate(4deg);
-  }
-  100% {
-    transform: rotate(-4deg); 
-  }           
-}
-
-@-webkit-keyframes tossing {
-  0% {
-    -webkit-transform: rotate(-4deg); 
-  }
-  50% {
-    -webkit-transform: rotate(4deg);
-  }
-  100% {
-    -webkit-transform: rotate(-4deg); 
-  }       
-}
 
 .bounce{
   animation-name: bounce;
