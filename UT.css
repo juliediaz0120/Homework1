@@ -1,0 +1,193 @@
+/*F/*Font Style/size-------Positioning amd colors*/ 
+body {
+background-color: #F29999;}
+
+#intro2{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+  padding: 40px;
+  
+
+  /*position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+#intro2, h1, p{
+
+font-family: 'Trirong', serif;
+font-size: 40px
+}
+
+#intro3{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 50px;
+  }
+/*Centering Intro3 div*/
+
+#medicineClick{
+  float:left;}
+
+#basicsClick{
+  float:center;}
+
+
+#dietClick{
+  float:right;}
+/*done centering Into3*/
+  
+       /*Animimations*/
+
+#hashi_cloud{
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;  
+
+  animation-duration: 2s; 
+  -webkit-animation-duration: 2s;
+
+  animation-timing-function: ease;  
+  -webkit-animation-timing-function: ease;  
+
+  visibility: visible !important;           
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  50%{
+    transform: translateY(8%);
+  }
+  65%{
+    transform: translateY(-4%);
+  }
+  80%{
+    transform: translateY(4%);
+  }
+  95%{
+    transform: translateY(-2%);
+  }     
+  100% {
+    transform: translateY(0%);
+  }   
+}
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+  50%{
+    -webkit-transform: translateY(8%);
+  }
+  65%{
+    -webkit-transform: translateY(-4%);
+  }
+  80%{
+    -webkit-transform: translateY(4%);
+  }
+  95%{
+    -webkit-transform: translateY(-2%);
+  }     
+  100% {
+    -webkit-transform: translateY(0%);
+  } 
+}
+
+#arrows{
+animation-name: tossing;
+  -webkit-animation-name: tossing;  
+
+  animation-duration: 6s; 
+  -webkit-animation-duration: 6s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes tossing {
+  0% {
+    transform: rotate(-4deg); 
+  }
+  50% {
+    transform: rotate(4deg);
+  }
+  100% {
+    transform: rotate(-4deg); 
+  }           
+}
+
+@-webkit-keyframes tossing {
+  0% {
+    -webkit-transform: rotate(-4deg); 
+  }
+  50% {
+    -webkit-transform: rotate(4deg);
+  }
+  100% {
+    -webkit-transform: rotate(-4deg); 
+  }       
+}
+
+.bounce{
+  animation-name: bounce;
+  -webkit-animation-name: bounce; 
+
+  animation-duration: 1.6s; 
+  -webkit-animation-duration: 1.6s;
+
+  animation-iteration-count: : 1; 
+  -webkit-animation-iteration-count: 1;
+
+  animation-timing-function: ease;  
+  -webkit-animation-timing-function: ease;  
+  
+  transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;   
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0%) scaleY(0.6);
+  }
+  60%{
+    transform: translateY(-50%) scaleY(1.1);
+  }
+  70%{
+    transform: translateY(0%) scaleY(0.55) scaleX(1.05);
+  }
+  80%{
+    transform: translateY(0%) scaleY(0.75) scaleX(1);
+  } 
+  90%{
+    transform: translateY(0%) scaleY(0.55) scaleX(1);
+  }       
+  100%{
+    transform: translateY(0%) scaleY(1) scaleX(1);
+  } 
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0%) scaleY(0.6);
+  }
+  60%{
+    -webkit-transform: translateY(-50%) scaleY(1.1);
+  }
+  70%{
+    -webkit-transform: translateY(0%) scaleY(0.55) scaleX(1.05);
+  }
+  80%{
+    -webkit-transform: translateY(0%) scaleY(0.75) scaleX(1);
+  } 
+  90%{
+    -webkit-transform: translateY(0%) scaleY(0.55) scaleX(1);
+  }       
+  100%{
+    -webkit-transform: translateY(0%) scaleY(1) scaleX(1);
+  }   
+}
+
+/* END ANIMATIONS*/
